@@ -1,5 +1,4 @@
 # infrastructure
-Assignment-6  
 Submission towards automation of AWS Networking VPC, 3 subnets, Internet Gateway and route table  
 Creation of ec2 instance, RDS mysql and s3 bucket  
 Load balancer routing requests sent to dns to auto scaler that scales up when cpu utilization goes over 5%  
@@ -24,7 +23,6 @@ aws cloudformation deploy --stack-name test21 --template-file test2.yml --parame
   
 aws cloudformation deploy --stack-name test19 --template-file test.yml --parameter-overrides imageId=ami-046ce0973d05c2038 BucketName=qwmiijuwse ProfileName=dev CodeDeployBucket=codedeploy.dev.venktesh.me --region us-east-1 --profile dev --capabilities CAPABILITY_NAMED_IAM  
 
-ami-00ee7cefaf69f61de
 
 #cloudformation stack
   
